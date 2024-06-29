@@ -1,0 +1,45 @@
+bady{
+	background-color: lightblue;
+	color: purple;
+	background-color: violet;
+}
+table{
+	border: double 2px hotpink;
+	font-size: 24px;
+	width: 50%;
+	border-collapse: separate;
+}   margin:hover
+th td{
+	border: solid 1px plum;
+	width: 25%;
+}
+tr{
+	height: 1cm;
+}
+tr:hover{
+	background-color: lightgray;
+}
+tr:hover,th:hover{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fgifer.com%2Fru%2Fgifs%2F%25D1%2580%25D0%25B0%25D0%25B4%25D1%2583%25D0%25B3%25D0%25B0&psig=AOvVaw36oGfqKFXJuxkWAqi09NqN&ust=1718607406548000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCODp1NfF34YDFQAAAAAdAAAAABAX);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: darkviolet;
+}
+tr:nth-child(odd){
+	background-color: lightskyblue;
+}
+tr:nth-child(even){
+	background-color: lightgoldenrodyellow;
+}
+.sc{
+	border: 2px dashed red;
+	text-align: right;
+	vertical-align: bottom;
+}
+caption{
+	text-transform: uppercase;
+	background: linear-gradient(to left, red, orange, yellow, green, blue, indigo);
+	font-size: 1.2em;
+	color: ;
+}

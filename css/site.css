@@ -1,0 +1,54 @@
+header{
+    background-color: lavender;
+}
+p{
+	background-color: navajowhite;
+	color: lavender;
+	font-size: 50px;
+}
+nav,aside{
+    width: 20%;
+    background-color: Lavender;
+    float: left;
+}
+main{
+    width: 68%;
+    background-color: skyblue;
+    float: left;
+}
+footer{
+	clear: both;
+	background-color: lavender;
+	height: 250px;
+}
+h2{
+	text-align: center;
+}
+article > p{
+	text-align: justify;
+}
+article{
+    margin: 5px;
+    Border:2px dashed Lavender;
+}
+.bgvideo{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bgvideo video{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	z-index: 1;
+}
+h1{
+	z-index: 2;
+	color: lavender;
+}

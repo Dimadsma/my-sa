@@ -1,0 +1,40 @@
+body{
+	background-color: lightcoral;
+	background-image: url(https://media.tenor.com/fAKIFrYkfpAAAAAM/sad-sad-cat.gif);
+	background-size: 200px;
+	background-repeat:no- repeat;
+	background-position: 95% 90%;
+	background-attachment: fixed;
+}
+p{
+	font-size: 0.9in;
+	color: darkkhaki;
+	background-image: url(https://www.urbanbrush.net/web/wp-content/uploads/edd/2022/01/urbanbrush-20220109222957986148.jpg);
+	background-size: cover;
+}
+#d1{
+	width: 500px;
+	height: 500px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi_3Dz560CX8Ey03u_m4_rbQUuxB023kEfgH3n9VJ4tw&s) ;
+	background-size:cover ;
+	border: 30px groove teal;
+}
+#d2{
+	width: 400px;
+	height: 400px;
+	border: 30px solid;
+	border-image: linear-gradient(teal,grey,lavender) 30;
+	margin: 50px;
+	background-image: url();
+}
+#img1{
+	width: 800px;
+	border: 30px ridge purple;
+	margin-bottom: 50px;
+	#img2{
+		width:50%;
+		display: block;
+		margin: auto;
+		border-radius: 50%;
+		box-shadow: 20px 20px  hotpink;
+	}
